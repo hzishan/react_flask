@@ -1,0 +1,123 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Microsoft JhengHei, Helvetica, Arial, Lucida Sans Unicode, MS Mincho, sans-serif;
+    font-size: 16px;
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.photo_viewer {
+    flex: 1 1;
+    display: grid;
+    --auto-grid-min-size: 15rem;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 3rem;
+    overflow-y: auto;
+}
+
+.photo {
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.header .title {
+    padding-top: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right bottom, #d2dde2, #b7c0e7);
+    font-family: Microsoft JhengHei, Helvetica, Arial, Lucida Sans Unicode, MS Mincho, sans-serif;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 1px) {
+    .app {
+        padding: 0 calc(100vw/10);
+    }
+
+    .header .title img {
+        max-width: calc(100vw/20);
+    }
+
+    .header .title .text span {
+        font-size: calc(100vw/40);
+    }
+
+    .content_category .card img {
+        height: min(15vw, 15vh);
+        margin: min(5vw, 5vh) auto;
+    }
+
+    .content_category .card:hover img {
+        height: min(18vw, 18vh);
+        margin: min(3.5vw, 3.5vh) auto;
+    }
+
+    .content_project_list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .content_project_list .card img {
+        height: min(17vw, 17vh);
+        margin: min(5vw, 5vh) auto;
+    }
+
+    .content_project_list .card:hover img {
+        height: min(20vw, 20vh);
+        margin: min(3.5vw, 3.5vh) auto;
+    }
+
+    .footer {
+        margin: 16px 0;
+    }
+
+    .footer p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .app {
+        padding: 0 calc(100vw/30);
+    }
+
+    .header .title img {
+        max-width: calc(100vw/10);
+    }
+
+    .header .title .text span {
+        font-size: calc(100vw/25);
+    }
+
+    .content_category {
+        padding: 0 calc(100vw/15);
+    }
+
+    .content_category .card img {
+        height: min(13vw, 13vh);
+        margin: min(5vw, 5vh) auto;
+    }
+
+    .content_category .card:hover img {
+        height: min(16vw, 16vh);
+        margin: min(3.5vw, 3.5vh) auto;
+    }
+
+    .footer {
+        margin: calc(100vw/80) 0;
+    }
+}

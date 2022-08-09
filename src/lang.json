@@ -1,0 +1,23 @@
+{
+    "header_title_sec1": { "default": "國立暨南國際大學資訊工程系", "en": "NCNU CSIE　" },
+    "header_title_sec2": { "default": "人工智慧創新應用實驗室", "en": "AIIA Lab" },
+    "othello": { "default": "黑白棋", "en": "Othello" },
+    "fundus": { "default": "眼底鏡", "en": "Fundus" },
+    "xray_chest": { "default": "胸腔X光", "en": "Chest X-ray" },
+    "bonescan": { "default": "骨骼掃描", "en": "Bone Scan" },
+    "ultrasound_heart": { "default": "心臟超音波", "en": "Cardiac Ultrasound" },
+    "ultrasound_kidney": { "default": "腎臟超音波", "en": "Kidney Ultrasound" },
+    "lung_3D": { "default": "肺部3D成像", "en": "3D lung Imaging" },
+    "oral": { "default": "口腔病變", "en": "Oral Lesion" },
+    "dataset": { "default": "資料集", "en": "Datasets" },
+    "digit_screen": { "default": "醫療設備螢幕", "en": "LCD Digit" },
+    "handwritten_digit": { "default": "連體手寫數字", "en": "Handwritten Digit" },
+    "license_plate": { "default": "車牌辨識", "en": "License Plate" },
+    "face": { "default": "人臉辨識", "en": "Face" },
+    "protein_structure": { "default": "蛋白質結構", "en": "Protein Structure" },
+    "image_caption": { "default": "影像描述", "en": "Image Captioning" },
+    "tool_annotation": { "default": "標記工具", "en": "Annotation" },
+    "tool_color_dist": { "default": "顏色分布", "en": "Color Distribution" },
+    "tool_cv": { "default": "影像處理工具", "en": "Image Process" },
+    "tool_image_inpaint": { "default": "影像修補工具", "en": "Image Inpaint" }
+}
